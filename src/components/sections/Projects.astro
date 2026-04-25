@@ -9,7 +9,7 @@ import { projects } from "@cv";
   <div class="grid grid-cols-1 gap-3 md:grid-cols-2 print:flex print:flex-col">
     {
       projects && projects.map(
-        ({ url, description, highlights, name, isActive, github, stack }) => {
+        ({ url = '', description, highlights, name, isActive, github, stack }) => {
           return (
             <div
               role="contentinfo"
