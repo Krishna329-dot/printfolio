@@ -7,13 +7,15 @@ import { Icon } from 'astro-icon/components';
   <ul id="project-list">
     {projects && (projects as any[]).map((project) => {
       const url = project.url ?? '';
-      const { description, highlights, name, isActive, github, stack } = project;
+      const description = project.description;
+      const highlights = project.highlights;
+      const name = project.name;
+      const isActive = project.isActive;
+      const github = project.github;
+      const stack = project.stack;
       const liClass = `mb-6 project-item leading-6 nvim-line${isActive ? ' active' : ''}${github ? ' open-source' : ''}`;
       return (
-        <li
-          class={liClass}
-          data-href={isActive ? url : github}
-        >
+        <li class={liClass} data-href={isActive ? url : github}>
           <div class="flex gap-2">
             {isActive ? (
               <a
@@ -42,13 +44,13 @@ import { Icon } from 'astro-icon/components';
             )}
           </div>
           <div>
-            {highlights && (highlights as string[]).map((highlight: string) =>
+            {highlights && highlights.map((highlight) =>
               <span class="text-gray-600">{highlight.slice(3)}. </span>
             )}
           </div>
           <p class="text-gray-500">{description}</p>
           <ul class="flex print:hidden flex-wrap gap-2 mt-6" aria-label="Technologies used">
-            {stack && Object.entries(stack as Record<string, string>).map(([label], index) => (
+            {stack && Object.entries(stack).map(([label], index) => (
               <li class="cursor-default bg-transparent border-nvim-green/60 text-green flex items-center border-solid border rounded-md px-2 py-1 text-xs backdrop-blur-sm">
                 <span>〔{index}〕</span>
                 <span>{label}</span>
