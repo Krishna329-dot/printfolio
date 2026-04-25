@@ -1,0 +1,358 @@
+{
+  "analyticsCode": "",
+  "basics": {
+    "name": "Krishna Singh",
+    "label": "Aspiring ML Engineer & Developer",
+    "animated_main_label": "developer",
+    "animated_secondary_initial_label": "AI / ML",
+    "animated_secondary_final_label": "fullstack",
+    "image": "/pfp.jpg",
+    "email": "ksingh75224@gmail.com",
+    "url": "https://www.zapfolio.in/krishna9625-chalk",
+    "summary": "Aspiring Machine Learning Engineer with a strong foundation in Python, data structures, and real-world project development. Passionate about building intelligent systems and solving practical problems using AI and machine learning techniques.",
+    "theme": "platinum",
+    "location": {
+      "address": "Kanpur Nagar",
+      "city": "Uttar Pradesh",
+      "countryCode": "IN",
+      "region": "India"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "icon": "ri:linkedin-fill",
+        "color": "#0A66C2",
+        "username": "krishna-singh",
+        "url": "https://www.linkedin.com/in/krishna-singh-108b01366"
+      },
+      {
+        "network": "GitHub",
+        "icon": "mdi:github",
+        "color": "#929AAB",
+        "username": "Krishna329-dot",
+        "url": "https://github.com/Krishna329-dot"
+      },
+      {
+        "network": "Download CV",
+        "icon": "ri:download-2-fill",
+        "color": "#4CAF50",
+        "username": "Download CV",
+        "url": "krishna-cv.pdf"
+      },
+      {
+        "network": "Phone",
+        "icon": "ri:phone-fill",
+        "color": "#25D366",
+        "username": "+91-9628251125",
+        "url": "tel:+919628251125"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "LifeDrop – Blood Donation Network",
+      "position": "Hackathon Project Developer",
+      "location_type": "On-site",
+      "location": "IN",
+      "url": "https://github.com/Krishna329-dot/hackthon",
+      "startDate": "2024-01-01",
+      "endDate": "2024-06-30",
+      "summary": "Built a digital platform to connect blood donors, hospitals, and patients during emergencies. Received a certificate of completion for successfully delivering project tasks and demonstrating strong learning ability.",
+      "responsibilities": [
+        "Built a digital platform to connect blood donors, hospitals, and patients during emergencies.",
+        "Developed AI-based donor matching system for efficient and quick response.",
+        "Implemented real-time emergency alert system for blood requests.",
+        "Designed user-friendly dashboard for admin monitoring and request management.",
+        "Integrated location-based services for nearby blood camps and banks.",
+        "Focused on solving real-world healthcare challenges using technology."
+      ],
+      "skills": {
+        "Python": "simple-icons:python",
+        "HTML5": "simple-icons:html5",
+        "CSS3": "ri:css3-fill",
+        "JavaScript": "simple-icons:javascript",
+        "Git": "mdi:git",
+        "GitHub": "mdi:github"
+      }
+    }
+  ],
+  "education": [
+    {
+      "institution": "Allenhouse Institute of Technology",
+      "url": "",
+      "area": "Computer Applications",
+      "studyType": "Bachelor of Computer Applications (BCA)",
+      "startDate": "2025",
+      "endDate": "2028",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "certificates": [],
+  "skills": [
+    {
+      "name": "Python",
+      "icon": "simple-icons:python",
+      "level": "Intermediate",
+      "keywords": [
+        "AI",
+        "ML",
+        "Scripting",
+        "Backend"
+      ]
+    },
+    {
+      "name": "HTML",
+      "icon": "simple-icons:html5",
+      "level": "Advanced",
+      "keywords": [
+        "Web Development",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "CSS",
+      "icon": "ri:css3-fill",
+      "level": "Advanced",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "Responsive Design"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "icon": "simple-icons:javascript",
+      "level": "Advanced",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "Backend",
+        "Fullstack"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "icon": "simple-icons:typescript",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "Backend"
+      ]
+    },
+    {
+      "name": "React",
+      "icon": "simple-icons:react",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "Next.js",
+      "icon": "simple-icons:nextdotjs",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "SSR"
+      ]
+    },
+    {
+      "name": "Node.js",
+      "icon": "ri:nodejs-line",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Backend",
+        "JavaScript",
+        "Server"
+      ]
+    },
+    {
+      "name": "Bootstrap",
+      "icon": "simple-icons:bootstrap",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "CSS Framework"
+      ]
+    },
+    {
+      "name": "Ollama",
+      "icon": "simple-icons:ollama",
+      "level": "Intermediate",
+      "keywords": [
+        "AI",
+        "LLM",
+        "Local AI",
+        "Chatbot"
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "icon": "simple-icons:scikitlearn",
+      "level": "Beginner",
+      "keywords": [
+        "AI",
+        "ML",
+        "NLP",
+        "Data Science"
+      ]
+    },
+    {
+      "name": "C++",
+      "icon": "simple-icons:cplusplus",
+      "level": "Beginner",
+      "keywords": [
+        "Programming",
+        "Embedded Systems",
+        "IoT"
+      ]
+    },
+    {
+      "name": "MongoDB",
+      "icon": "simple-icons:mongodb",
+      "level": "Beginner",
+      "keywords": [
+        "Databases",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "icon": "mdi:git",
+      "level": "Advanced",
+      "keywords": [
+        "Version Control",
+        "Collaboration"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "icon": "mdi:github",
+      "level": "Advanced",
+      "keywords": [
+        "Version Control",
+        "Collaboration",
+        "Source Code"
+      ]
+    },
+    {
+      "name": "Linux",
+      "icon": "simple-icons:linux",
+      "level": "Beginner",
+      "keywords": [
+        "OS",
+        "Scripting",
+        "Automation"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Hindi",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Intermediate"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Venom AI – AI Assistant",
+      "isActive": true,
+      "description": "A powerful AI assistant project built with Python. Designed to interact intelligently, process commands, and provide context-aware responses using modern AI techniques.",
+      "highlights": [
+        "🤖 Intelligent AI Assistant",
+        "🧠 Context-aware Responses",
+        "🐍 Built fully in Python",
+        "⚡ Fast & Lightweight",
+        "🔧 Modular & Extensible Architecture",
+        "💬 Natural Language Interaction"
+      ],
+      "stack": {
+        "Python": "simple-icons:python"
+      },
+      "github": "https://github.com/Krishna329-dot/venom-AI"
+    },
+    {
+      "name": "Real-time Voice Assistant",
+      "isActive": true,
+      "description": "A voice-controlled AI assistant inspired by JARVIS, built with Python. Features real-time speech recognition, text-to-speech, and system automation like opening apps, searching the web, and executing commands.",
+      "highlights": [
+        "🎙️ Real-time Speech Recognition",
+        "🔊 Text-to-Speech Interaction",
+        "⚙️ System Automation (open apps, search web)",
+        "🧩 Modular & Scalable Architecture",
+        "🧠 NLP Concepts Applied",
+        "🤖 JARVIS-inspired Design"
+      ],
+      "stack": {
+        "Python": "simple-icons:python",
+        "SpeechRecognition": "ri:mic-fill"
+      },
+      "github": "https://github.com/Krishna329-dot/real-time-voice-assistant-"
+    },
+    {
+      "name": "LifeDrop – Blood Donation Network",
+      "isActive": true,
+      "description": "A hackathon project — a digital platform to connect blood donors, hospitals, and patients during emergencies, featuring AI-based donor matching and real-time alerts.",
+      "highlights": [
+        "🩸 Connects Donors, Hospitals & Patients",
+        "🤖 AI-based Donor Matching System",
+        "🚨 Real-time Emergency Alert System",
+        "📊 Admin Monitoring Dashboard",
+        "📍 Location-based Blood Camp Finder",
+        "🏆 Certificate of Completion Awarded"
+      ],
+      "stack": {
+        "Python": "simple-icons:python",
+        "JavaScript": "simple-icons:javascript",
+        "HTML5": "simple-icons:html5",
+        "CSS3": "ri:css3-fill"
+      },
+      "github": "https://github.com/Krishna329-dot/hackthon"
+    },
+    {
+      "name": "Fire Alarm Detection System",
+      "isActive": true,
+      "description": "An automated fire alarm detection system that identifies fire hazards and triggers alerts. Built to demonstrate real-world IoT and safety automation concepts.",
+      "highlights": [
+        "🔥 Automated Fire Hazard Detection",
+        "🚨 Instant Alert Triggering",
+        "📡 Sensor-based Monitoring",
+        "🛡️ Safety Automation System",
+        "⚡ Real-time Response",
+        "🔧 Hardware + Software Integration"
+      ],
+      "stack": {
+        "Python": "simple-icons:python",
+        "C++": "simple-icons:cplusplus"
+      },
+      "github": "https://github.com/Krishna329-dot/fire-alarm-dect"
+    },
+    {
+      "name": "ESP32 CSI Sensing",
+      "isActive": true,
+      "description": "A project using ESP32 microcontroller to capture and analyze Channel State Information (CSI) data for sensing applications like human presence detection and gesture recognition using WiFi signals.",
+      "highlights": [
+        "📡 ESP32 WiFi CSI Data Capture",
+        "👁️ Human Presence Detection",
+        "🤚 Gesture Recognition via WiFi",
+        "🔬 Signal Processing & Analysis",
+        "⚙️ Embedded Systems Programming",
+        "🌐 IoT & Wireless Sensing"
+      ],
+      "stack": {
+        "C++": "simple-icons:cplusplus",
+        "Python": "simple-icons:python"
+      },
+      "github": "https://github.com/Krishna329-dot/esp32-csi-sensing"
+    }
+  ]
+}
