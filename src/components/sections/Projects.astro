@@ -3,19 +3,29 @@ import Section from "../Section.astro";
 import { Icon } from "astro-icon/components";
 
 import { projects } from "@cv";
+
+type Project = {
+  url?: string;
+  description: string;
+  highlights: string[];
+  name: string;
+  isActive: boolean;
+  github?: string;
+  stack?: Record<string, string>;
+};
 ---
 
 <Section className={Astro.props.className} title="Projects">
   <div class="grid grid-cols-1 gap-3 md:grid-cols-2 print:flex print:flex-col">
     {
-      projects && (projects as any[]).map(
+      projects && (projects as Project[]).map(
         ({ url = '', description, highlights, name, isActive, github, stack }) => {
           return (
             <div
               role="contentinfo"
               class="grid-span-1 group relative flex min-h-80 flex-col overflow-hidden rounded-md bg-skin-button-muted/50 p-5 shadow-sm ring-1 ring-skin-muted sm:hover:ring-2 sm:hover:ring-skin-hue sm:hover:bg-skin-muted transition-all duration-250 ease-in-out"
             >
-              <div class='relative z-10 flex items-center justify-between space-x-[10px]'>
+              <div class="relative z-10 flex items-center justify-between space-x-[10px]">
                 <div class="flex items-center gap-2">
                   <Icon data-ccursor="lift" name="mdi:folder-outline" class="size-4" />
                   <div class="flex items-center gap-[6px]">
@@ -36,7 +46,6 @@ import { projects } from "@cv";
                     )}
                   </div>
                 </div>
-
                 {github && (
                   
                     data-ccursor="lift"
@@ -51,25 +60,23 @@ import { projects } from "@cv";
                   </a>
                 )}
               </div>
-
-              <p data-ccursor="noPadding" class='relative z-10 py-3 text-sm text-skin-base'>
+              <p data-ccursor="noPadding" class="relative z-10 py-3 text-sm text-skin-base">
                 {description}
               </p>
-              <ul class='z-10 mt-1 text-sm'>
-                {highlights.map((highlight) => {
+              <ul class="z-10 mt-1 text-sm">
+                {highlights.map((highlight: string) => {
                   return <li data-ccursor class="w-max">{highlight}</li>;
                 })}
               </ul>
-
               <ul class="flex print:hidden flex-wrap gap-2 mt-4" aria-label="Technologies used">
                 {stack && Object.entries(stack).map(([label, icon]) => (
                   <li data-ccursor="lift" class="border-skin-hue/60 text-skin-hue print:p-0 print:bg-transparent print:text-zinc-800 flex gap-1 items-center border-solid print:border-none border rounded-md px-2 py-0.5 text-xs backdrop-blur-sm group/stack">
-                    {icon &&
+                    {icon && (
                       <span class="flex gap-1">
                         <Icon name={icon} width={16} height={16} />
                         <span class="group-hover/stack:text-skin-hue transition-all duration-200">{label}</span>
                       </span>
-                    }
+                    )}
                   </li>
                 ))}
               </ul>
@@ -80,12 +87,29 @@ import { projects } from "@cv";
     }
   </div>
 </Section>
-
+<script>
+  import { Fancybox } from "@fancyapps/ui";
+  Fancybox.bind('[data-fancybox="projects"]', { hideScrollbar: false });
+</script>
 <style>
   ul {
     @apply ml-4 list-disc space-y-1;
     li {
       @apply text-skin-muted marker:text-skin-hue;
     }
+  }
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    font-size: 0.6rem;
+  }
+  footer span {
+    border-radius: 6px;
+    background: #eee;
+    color: #444;
+    font-size: 0.6rem;
+    font-weight: 500;
+    padding: 0.2rem 0.6rem;
   }
 </style>
