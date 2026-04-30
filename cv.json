@@ -94,162 +94,97 @@
       "name": "Python",
       "icon": "simple-icons:python",
       "level": "Intermediate",
-      "keywords": [
-        "AI",
-        "ML",
-        "Scripting",
-        "Backend"
-      ]
+      "keywords": ["AI", "ML", "Scripting", "Backend"]
     },
     {
       "name": "HTML",
       "icon": "simple-icons:html5",
       "level": "Advanced",
-      "keywords": [
-        "Web Development",
-        "Frontend"
-      ]
+      "keywords": ["Web Development", "Frontend"]
     },
     {
       "name": "CSS",
       "icon": "ri:css3-fill",
       "level": "Advanced",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "Responsive Design"
-      ]
+      "keywords": ["Web Development", "Frontend", "Responsive Design"]
     },
     {
       "name": "JavaScript",
       "icon": "simple-icons:javascript",
       "level": "Advanced",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "Backend",
-        "Fullstack"
-      ]
+      "keywords": ["Web Development", "Frontend", "Backend", "Fullstack"]
     },
     {
       "name": "TypeScript",
       "icon": "simple-icons:typescript",
       "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "Backend"
-      ]
+      "keywords": ["Web Development", "Frontend", "Backend"]
     },
     {
       "name": "React",
       "icon": "simple-icons:react",
       "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend"
-      ]
+      "keywords": ["Web Development", "Frontend"]
     },
     {
       "name": "Next.js",
       "icon": "simple-icons:nextdotjs",
       "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "SSR"
-      ]
+      "keywords": ["Web Development", "Frontend", "SSR"]
     },
     {
       "name": "Node.js",
       "icon": "ri:nodejs-line",
       "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "JavaScript",
-        "Server"
-      ]
+      "keywords": ["Web Development", "Backend", "JavaScript", "Server"]
     },
     {
       "name": "Bootstrap",
       "icon": "simple-icons:bootstrap",
       "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "CSS Framework"
-      ]
+      "keywords": ["Web Development", "Frontend", "CSS Framework"]
     },
     {
       "name": "Ollama",
       "icon": "simple-icons:ollama",
       "level": "Intermediate",
-      "keywords": [
-        "AI",
-        "LLM",
-        "Local AI",
-        "Chatbot"
-      ]
+      "keywords": ["AI", "LLM", "Local AI", "Chatbot"]
     },
     {
       "name": "Machine Learning",
       "icon": "simple-icons:scikitlearn",
       "level": "Beginner",
-      "keywords": [
-        "AI",
-        "ML",
-        "NLP",
-        "Data Science"
-      ]
+      "keywords": ["AI", "ML", "NLP", "Data Science"]
     },
     {
       "name": "C++",
       "icon": "simple-icons:cplusplus",
       "level": "Beginner",
-      "keywords": [
-        "Programming",
-        "Embedded Systems",
-        "IoT"
-      ]
+      "keywords": ["Programming", "Embedded Systems", "IoT"]
     },
     {
       "name": "MongoDB",
       "icon": "simple-icons:mongodb",
       "level": "Beginner",
-      "keywords": [
-        "Databases",
-        "Backend"
-      ]
+      "keywords": ["Databases", "Backend"]
     },
     {
       "name": "Git",
       "icon": "mdi:git",
       "level": "Advanced",
-      "keywords": [
-        "Version Control",
-        "Collaboration"
-      ]
+      "keywords": ["Version Control", "Collaboration"]
     },
     {
       "name": "GitHub",
       "icon": "mdi:github",
       "level": "Advanced",
-      "keywords": [
-        "Version Control",
-        "Collaboration",
-        "Source Code"
-      ]
+      "keywords": ["Version Control", "Collaboration", "Source Code"]
     },
     {
       "name": "Linux",
       "icon": "simple-icons:linux",
       "level": "Beginner",
-      "keywords": [
-        "OS",
-        "Scripting",
-        "Automation"
-      ]
+      "keywords": ["OS", "Scripting", "Automation"]
     }
   ],
   "languages": [
@@ -353,6 +288,26 @@
         "Python": "simple-icons:python"
       },
       "github": "https://github.com/Krishna329-dot/esp32-csi-sensing"
+    },
+    {
+      "name": "College Admission AI Chatbot",
+      "isActive": true,
+      "description": "A RAG-based AI chatbot acting as a College Reception Manager. Helps students and parents with queries about courses, fees, and placements using LangChain, FAISS, and local LLM (Phi-3) via Ollama.",
+      "highlights": [
+        "🎓 RAG-based Retrieval from College PDFs",
+        "🤖 Powered by LangChain + FAISS Vector DB",
+        "🦙 Local LLM via Ollama (Phi-3:mini)",
+        "🔊 Built-in Text-to-Speech (Web Speech API)",
+        "💻 Modern Glassmorphism UI",
+        "⚡ FastAPI Backend"
+      ],
+      "stack": {
+        "Python": "simple-icons:python",
+        "JavaScript": "simple-icons:javascript",
+        "HTML5": "simple-icons:html5",
+        "CSS3": "ri:css3-fill"
+      },
+      "github": "https://github.com/Krishna329-dot/college-admission-chat-bot-"
     }
   ]
 }
