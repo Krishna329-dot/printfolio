@@ -1,5 +1,6 @@
 ---
 import "@fancyapps/ui/dist/fancybox/fancybox.css";
+import Chatbot from "../components/Chatbot.astro"
 import '../globals.css';
 import CV from "@cv";
 import Analytics from '@vercel/analytics/astro';
@@ -168,6 +169,7 @@ const breadcrumbSchema = {
     <slot />
     <script src="../scripts/main.ts"></script>
     <BackgroundArt/>
+    <Chatbot />
   </body>
 </html>
 
