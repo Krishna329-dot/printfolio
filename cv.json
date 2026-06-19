@@ -203,14 +203,14 @@
       "isActive": true,
       "description": "An AI-powered spiritual chatbot inspired by Shree Krishna and the Bhagavad Gita. Detects user's language (Hindi/English) automatically and responds with contextual life guidance backed by relevant Sanskrit shlokas from the Gita.",
       "highlights": [
-        "🕉️ AI Guide Inspired by Bhagavad Gita Philosophy",
-        "🌐 Auto Language Detection (Hindi/English)",
-        "📜 Real Sanskrit Shlokas with References in Every Response",
-        "⚡ Powered by Groq API (Llama 3.3 70B) — Ultra-fast Responses",
-        "🌍 Wikipedia API Integration for Contextual Knowledge",
-        "🎨 Glassmorphism UI with Immersive Krishna Theme",
-        "🎯 Scope-restricted — Stays Focused on Life & Spiritual Guidance",
-        "📱 Mobile-first Responsive Design"
+        "🕉️ Krishna-inspired Gita Wisdom AI",
+        "🌐 Auto Hindi/English Detection",
+        "📜 Real Sanskrit Shlokas with Refs",
+        "⚡ Powered by Groq (Llama 3.3 70B)",
+        "🌍 Wikipedia API for Context",
+        "🎨 Glassmorphism Krishna Theme",
+        "🎯 Focused on Life Guidance Only",
+        "📱 Mobile-first Design"
       ],
       "stack": {
         "Next.js": "simple-icons:nextdotjs",
