@@ -199,6 +199,28 @@
   ],
   "projects": [
     {
+      "name": "Vasudeva AI – Spiritual Guidance Chatbot",
+      "isActive": true,
+      "description": "An AI-powered spiritual chatbot inspired by Shree Krishna and the Bhagavad Gita. Detects user's language (Hindi/English) automatically and responds with contextual life guidance backed by relevant Sanskrit shlokas from the Gita.",
+      "highlights": [
+        "🕉️ AI Guide Inspired by Bhagavad Gita Philosophy",
+        "🌐 Auto Language Detection (Hindi/English)",
+        "📜 Real Sanskrit Shlokas with References in Every Response",
+        "⚡ Powered by Groq API (Llama 3.3 70B) — Ultra-fast Responses",
+        "🌍 Wikipedia API Integration for Contextual Knowledge",
+        "🎨 Glassmorphism UI with Immersive Krishna Theme",
+        "🎯 Scope-restricted — Stays Focused on Life & Spiritual Guidance",
+        "📱 Mobile-first Responsive Design"
+      ],
+      "stack": {
+        "Next.js": "simple-icons:nextdotjs",
+        "TypeScript": "simple-icons:typescript",
+        "JavaScript": "simple-icons:javascript",
+        "Python": "simple-icons:python"
+      },
+      "github": "https://github.com/Krishna329-dot/vasudeva-chatbot-"
+    },
+    {
       "name": "Venom AI – AI Assistant",
       "isActive": true,
       "description": "A powerful AI assistant project built with Python. Designed to interact intelligently, process commands, and provide context-aware responses using modern AI techniques.",
