@@ -2,14 +2,14 @@
   "analyticsCode": "",
   "basics": {
     "name": "Krishna Singh",
-    "label": "Aspiring ML Engineer & Developer",
-    "animated_main_label": "developer",
-    "animated_secondary_initial_label": "AI / ML",
+    "label": "Aspiring AI/ML RAG & Developer",
+    "animated_main_label": " Developer",
+    "animated_secondary_initial_label": "AI / ML / RAG",
     "animated_secondary_final_label": "fullstack",
     "image": "/pfp.jpg",
     "email": "ksingh75224@gmail.com",
     "url": "https://www.zapfolio.in/krishna9625-chalk",
-    "summary": "Aspiring Machine Learning Engineer with a strong foundation in Python, data structures, and real-world project development. Passionate about building intelligent systems and solving practical problems using AI and machine learning techniques.",
+    "summary": "Aspiring Machine Learning Engineer with a strong foundation in RAG (Retrieval-Augmented Generation) ,Python, data structures, and real-world project development. Passionate about building intelligent systems and solving practical problems using AI and machine learning techniques.",
     "theme": "platinum",
     "location": {
       "address": "Kanpur Nagar",
@@ -50,13 +50,36 @@
   },
   "work": [
     {
+      "name": "Smart Call Assistant",
+      "position": "Devlop",
+      "location_type": "Remote",
+      "location": "IN",
+      "url": "https://github.com/Krishna329-dot/smart-call-assistant",
+      "startDate": "2026-07-01",
+      "endDate": "2026-08-30",
+      "summary": "Developed a Python-based AI voice assistant designed to handle customer calls, explain services, and automatically capture leads for service businesses.",
+      "responsibilities": [
+        "Built an AI-driven voice assistant to handle real-time customer interactions.",
+        "Implemented multilingual support for English and Hindi conversations.",
+        "Designed professional call flow with greetings, service explanations, and closings.",
+        "Developed automatic lead collection system capturing name, email, phone, and requirements.",
+        "Configured secure token-based authentication using environment variables.",
+        "Focused on building a scalable virtual assistant for real-world service businesses."
+      ],
+      "skills": {
+        "Python": "simple-icons:python",
+        "Git": "mdi:git",
+        "GitHub": "mdi:github"
+      }
+    },
+    {
       "name": "LifeDrop – Blood Donation Network",
       "position": "Hackathon Project Developer",
       "location_type": "On-site",
       "location": "IN",
       "url": "https://github.com/Krishna329-dot/hackthon",
-      "startDate": "2024-01-01",
-      "endDate": "2024-06-30",
+      "startDate": "2026-01-01",
+      "endDate": "2026-02-30",
       "summary": "Built a digital platform to connect blood donors, hospitals, and patients during emergencies. Received a certificate of completion for successfully delivering project tasks and demonstrating strong learning ability.",
       "responsibilities": [
         "Built a digital platform to connect blood donors, hospitals, and patients during emergencies.",
@@ -198,6 +221,23 @@
     }
   ],
   "projects": [
+    {
+      "name": "Smart Call Assistant",
+      "isActive": true,
+      "description": "A Python-based voice support assistant that uses AI to handle customer interactions, explain services, and capture leads automatically. Designed for real-time voice support and follow-up, acting as a virtual assistant for service businesses.",
+      "highlights": [
+        "🎙️ AI-driven Voice Response Handling",
+        "🌐 Supports English & Hindi",
+        "👋 Professional Greetings & Closings",
+        "💼 Service Details & Pricing Support",
+        "📋 Automatic Lead Collection",
+        "⚙️ Easy Setup via Environment Variables"
+      ],
+      "stack": {
+        "Python": "simple-icons:python"
+      },
+      "github": "https://github.com/Krishna329-dot/smart-call-assistant"
+    },
     {
       "name": "Vasudeva AI – Spiritual Guidance Chatbot",
       "isActive": true,
